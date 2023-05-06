@@ -1,0 +1,39 @@
+input {
+  margin-bottom: 24px;
+  width: 540px;
+  padding: 16px;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  outline: none;
+  background: transparent;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: -0.115385px;
+  color: var(--white);
+}
+input::placeholder {
+  /* transition: 0.5s; */
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: -0.115385px;
+  color: var(--white);
+  opacity: 0.6;
+}
+input::placeholder:active {
+  color: black;
+  /* opacity: 0; */
+}
+.error-message {
+  display: none;
+  color: red;
+}
+.required-field.error {
+  border-bottom-color: red;
+}

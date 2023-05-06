@@ -1,0 +1,61 @@
+@import url("../global.css");
+
+.contact__header {
+  padding-top: 73px;
+  width: 100%;
+  height: 789px;
+  background: url("../../images/contact/main__bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact__home__left {
+  width: 620px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  /* text-align: left; */
+}
+.contact__home__left h1 {
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 100px;
+  color: var(--white);
+}
+.contact__home__left span {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: var(--light-coral);
+}
+
+.contact__tools_explaining p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--white);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .contact__header {
+    padding-top: 72px;
+    width: 100%;
+    height: 1204px;
+    background: url("../../images/contact/responsive/main__bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .contact__home__left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact__top_contact__tools {
+    column-gap: 40px;
+  }
+}

@@ -1,0 +1,23 @@
+.contact__reg_btn {
+  padding: 10px 32px;
+  max-width: 123px;
+  background: transparent;
+  border: 2px solid var(--white);
+  border-radius: 24px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--white);
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.contact__reg_btn:hover {
+  background: var(--white);
+  color: var(--deep-jungle-green);
+}
+/* .contact.contact__reg_btn {
+  color: var(--dark-green);
+} */
